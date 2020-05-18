@@ -1,5 +1,5 @@
 @charset 'utf-8';
-.header{position:relative;}
+.header{position:relative;height:80px;}
 .header>.content1{height:80px;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;background-color:#ffffff;}
 .nav>ul{display:flex;flex-flow:row nowrap;}
 .nav>ul>li{padding-right:20px;}
@@ -83,7 +83,7 @@
 .iwc_join>input{display:block;margin:20px auto;border:1px solid #000000;padding:10px 60px;outline:none;cursor: pointer;color:#000000;background-color:#ffffff;transition:0.3s;}
 .iwc_join>input:hover{color:#ffffff;background-color:#000000;}
 #lang_btn{position: relative;}
-.lang_box{position: absolute;right:0;top:100%;width:300px;display:none;}
+.lang_box{position: absolute;right:40px;top:60%;z-index:10;width:300px;display:none;}
 .lang_box>.tri{display:flex;flex-flow:row nowrap;}
 .lang_box>.tri>li:nth-child(1){width:90%;}
 .lang_box>.tri>li:nth-child(2){width:20px;height:20px;border:10px solid transparent;border-bottom-color:#ffffff;}

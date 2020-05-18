@@ -1,5 +1,5 @@
 @charset 'utf-8';
-.service_8years{height:300px;display:flex;flex-flow:column nowrap;justify-content:space-between;align-items:center;font-size:14px;}
+.service_8years{height:auto;display:flex;flex-flow:column nowrap;justify-content:space-between;align-items:center;font-size:14px;}
 .service_8years>a{color:#999;}
 .service_8years>a:hover{color:#b19c5e;}
 .service_8years .image{width:300px;}
