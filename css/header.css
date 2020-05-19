@@ -29,7 +29,6 @@
 .submenu_txt{border-top:4px solid #000000;}
 .submenu_txt>p{padding:8px 0;}
 .submenu_txt>p>a{transition:0.2s;}
-.submenu_txt>p>a:hover{color:#b19c5e;}
 .txt_bold{font-weight:bold;}
 
 .subwatche_list>li{border-top:4px solid #000000;padding:20px 0;}
@@ -79,7 +78,7 @@
 .iwc_join>div>input{margin-top:-20px;padding:6px 10px;border-bottom:1px solid #999999;background-color:transparent;font-size:24px;outline:none;}
 .iwc_join>div>input.active{border-bottom:1px solid #000000;}
 .iwc_join>p{text-align:center;margin:20px 0;}
-.iwc_join>p>a:hover{color:#b19c5e;text-decoration:underline;}
+.iwc_join>p>a:hover{text-decoration:underline;}
 .iwc_join>input{display:block;margin:20px auto;border:1px solid #000000;padding:10px 60px;outline:none;cursor: pointer;color:#000000;background-color:#ffffff;transition:0.3s;}
 .iwc_join>input:hover{color:#ffffff;background-color:#000000;}
 #lang_btn{position: relative;}
@@ -109,7 +108,6 @@
   .coll_tit{flex-flow:column nowrap;justify-content:flex-start;}
   .coll_tit p{font-size:16px;}
   .coll_tit p a{color:#999999;transition:0.2s;}
-  .coll_tit p a:hover{color:#b19c5e;}
   .coll_content{flex-flow:row wrap;}
   .watches{width:140px;}
 

@@ -82,7 +82,7 @@ $(function(){
   });
   $('.iwc_join>div>input').focusout(function(){
     $('.iwc_join>div>input').prev().removeClass('active');
-  })
+  });
   $('input[value="LOG IN"]').click(function(){
     var userId=$('#user_id').val();
     console.log(userId);
@@ -114,5 +114,5 @@ $(function(){
     $('.submenu').css('bottom','100%');
     $('.subwatche').css('bottom','100%');
     $('.search_form').css('display','none');      
-  }
-})
+  };
+});
