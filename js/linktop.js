@@ -14,7 +14,7 @@ $(function(){
       $('#link_top').addClass('active').css('right','0').css('top','80%');
       $('.header>.content1').slideUp(300);
     }else{
-      $('#link_top>a').removeClass('active');
+      $('#link_top').removeClass('active');
       $('.header>.content1').slideDown(300);
     }
   });
